@@ -1,0 +1,46 @@
+body{
+    background-color: #f2f2f2;
+}
+.box1{
+    text-align: center; 
+}
+
+.my-form{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+form{
+    padding: 20px;
+    border:1px solid black;
+}
+
+div{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display:block;
+}
+
+.my-form input[type="text"], .my-form input[type="textarea"],.my-form input[type="password"],.my-form input[type="email"]{
+    padding: 8px;
+    width:100%;
+    border-radius: 20px;
+    border: none;
+}
+
+.suButton{
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.suButton:hover{
+    background: red;
+    color: black;
+}
+
