@@ -1,0 +1,124 @@
+body{
+    background-color:#f4f4f4;
+    color:#555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+.element{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+.element ul{
+    padding: 0;
+    list-style: none;
+}
+
+.element li{
+    display: inline;
+}
+
+.element a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+.element a:hover{
+    color: red;
+    font-size: 20px;
+}
+
+section .element h1{
+    color:black;
+    font-size: 30px;
+    line-height: 1.6em;
+    padding-top: 30px;
+}
+
+
+#leftsection{
+    float: left;
+    width: 70%;
+    padding: 0px,30px;
+    box-sizing: border-box;
+}
+
+#rightaside{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+#imageid{
+    height: 100%;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.footer{
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+        
+}
+
+.footer:hover{
+    color: dodgerblue;
+}
+
+.box1{
+    text-align: center; 
+}
+
+.my-form{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+form{
+    padding: 20px;
+    border:1px solid black;
+}
+
+div{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display:block;
+}
+
+.my-form input[type="text"], .my-form input[type="textarea"],.my-form input[type="password"],.my-form input[type="email"]{
+    padding: 8px;
+    width:100%;
+    border-radius: 20px;
+    border: none;
+}
+
+.suButton{
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.suButton:hover{
+    background: red;
+    color: black;
+}
+
